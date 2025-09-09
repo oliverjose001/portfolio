@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         body {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.92) 0%, rgba(9, 9, 121, 0.87) 50%, rgba(2, 73, 73, 0.82) 100%);
+      min-height: 100vh;
+      padding: 20px;
+      color: white;
+
+    }
+
+    h1 {
+      color: white;
+    }
+
+  .p1,.p2,.p3,.p4,.p5,.p6 {
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    font-size: 20px;
+    margin-left: 100px;
+}@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.p7 {
+	animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5s both;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p8 {
+	animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5.8s both;
+    font-size: 20px;
+    border-radius: 2px solid plack;
+    background-color: rgb(178, 239, 239);
+    color: black;
+    margin-left: 48%;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+   
+    
+}
+
+
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>Contact</h1>
+
+
+    <p class="p1">Name : Jose Oliver A </p>
+    <p class="p2">Phone Number : 9025731610</p>
+    <p class="p3">Email : joliverofficial23@gmail.com</p>
+    <p class="p4">Location : Indhira Colony,&nbsp; Chenbagaramanputhur,&nbsp;Kanyakumari,&nbsp;Tamil Nadu,&nbsp; Pin code: 629301</p>
+    <p class="p5">Linkdin : <a href="https://www.linkedin.com/in/oliver23/"target="_blank" style="color: white;">www.linkedin.com/in/oliver23</a> </p>
+    <p class="p6">GitHub : <a href="https://github.com/oliverjose001" target="_blank" style="color: white;">oliverjose001</a></p>
+
+    <br><br>
+
+    <p class="p7">Thank you... </p>
+
+
+    <a href="home.html" class="p8">Home</a>
+    
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>skills</title>
+  <style>
+    body {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.92) 0%, rgba(9, 9, 121, 0.87) 50%, rgba(2, 73, 73, 0.82) 100%);
+      min-height: 100vh;
+      padding: 20px;
+
+    }
+
+    h3 {
+      color: white;
+    }
+
+
+    h4 {
+      color: white;
+      margin-left: 70px;
+
+    }
+
+    .box1 ,.box2,.box3,.box4{
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      gap: 35px;
+      padding: 15px;
+      margin-bottom: 20px;
+      margin: 30px;
+    }
+
+    .img1,.img2,.img3,.img4 {
+      width: 50px;
+      height: 50px;
+    }
+
+    .box1 h4,.box2 h4,.box3 h4,.box4 h4 {
+      margin: 0;
+      font-size: 20px;
+      color: white;
+      min-width: 70px;
+    }
+
+    .box1 p ,.box2 p,.box3 p,.box4 p{
+      margin: 0;
+      color: white;
+      line-height: 1.6;
+    }
+    .btn1{
+      margin-left: 43%;
+    }
+
+    .btn1,.btn2{
+      border: 1px solid black;
+      padding: 10px;
+      color: black;
+      background-color: rgb(174, 246, 246);
+      border-radius: 15%;
+    }.btn1:hover,.btn2:hover{
+      color: rgb(174, 246, 246);
+      background-color: black;
+      transition: 1s;
+    }
+
+
+   @keyframes rotate-scale-up-hor {
+  0% {
+    transform: scale(1) rotateX(0);
+  }
+  50% {
+    transform: scale(2) rotateX(-180deg);
+  }
+  100% {
+    transform: scale(1) rotateX(-360deg);
+  }
+}
+.box1{
+	animation: rotate-scale-up-hor 0.65s linear both;
+}
+
+.box2{
+	animation: rotate-scale-up-hor 0.85s linear both;
+}
+
+.box3{
+	animation: rotate-scale-up-hor 1.5s linear both;
+}
+
+.box4{
+	animation: rotate-scale-up-hor 1.25s linear both;
+}
+  </style>
+</head>
+
+<body>
+
+  <h3>Skills</h3>
+
+
+  <div class="box1">
+    <h4>HTML</h4>
+    <img class="img1" src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+     
+     <p> I have good knowledge of HTML and can create well-structured web pages using different tags. I use HTML to
+      organize content like headings, images, links, and forms. It helps me build the foundation of every website I
+      create.
+    </p><br><br>
+  </div>
+
+
+ <div class="box2">
+  <h4>CSS</h4>
+  <img class="img2" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+  <p>I know the basics of CSS and use it to style and design web pages. With CSS, I can control colors, text, spacing,
+    and simple layouts. It allows me to make websites look clean and presentable.
+
+  </p><br><br>
+</div>
+
+
+ <div class="box3">
+  <h4>JavaScript</h4>
+  <img class="img3" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS">
+  <p>
+
+    I have learned JavaScript to make websites interactive and dynamic. I use it to handle events, validate forms, and
+    create logic for different functionalities. JavaScript helps me bring life to web pages and improve user experience.
+  </p> <br><br>
+</div>
+
+
+<div class="box4">
+  <h4>GitHub</h4>
+  <img class="img4" src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+  <p>
+
+    I know how to use GitHub for managing my projects and storing code. It allows me to track changes, share my work,
+    and collaborate with others. GitHub has helped me organize my learning journey and showcase my skills.
+  </p><br><br>
+</div>
+
+<a href="home.html" class="btn1">Home</a>
+&ensp;
+<a href="contect.html" class="btn2">Contact</a>
+
+
+</body>
+
+</html>

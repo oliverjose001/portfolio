@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+
+
+<style>
+  body {
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.92) 0%, rgba(9, 9, 121, 0.87) 50%, rgba(2, 73, 73, 0.82) 100%);
+    min-height: 100vh;
+    padding: 20px;
+    
+  }
+
+  h3{
+    color: white;
+  }
+  p{
+    color: beige;
+  }
+
+
+  .box {
+    display: flex;
+    align-items: flex-start;   
+    gap: 20px;                
+    max-width: 1000px;
+    margin: auto;             
+  }
+
+  .box img {
+    border-radius: 10px;
+  }
+
+  .text {
+    line-height: 1.8;
+    max-width: 600px;
+    transition: all 0.5s ease-in-out;
+    animation: tracking-in-expand-fwd 1s cubic-bezier(0.215,0.610,0.355,1.000) both;
+  }
+  .img{
+    margin-top: 30px;
+  }
+
+  #btn1,#btn2{
+    border: 1px solid black;
+    padding: 10px;
+    color: rgb(5, 5, 5);
+    background-color: rgba(180, 255, 255, 0.738);
+    border-radius: 10px;
+
+
+  }
+
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+</style>
+</head>
+<body>
+  <h3>About Me</h3>
+
+  <div class="box">
+    <img src="Generated Image September 02, 2025 - 1_30PM.jpeg" style="width: 400px;height: 450px;" class="img"  alt="Random Image">
+
+    <div class="text">
+      <p>My name is Jose Oliver, and I am from Chenbagaramanputhoor in Kanyakumari District. I completed my
+      schooling at Government Higher Secondary School, Aralvoimozhi, and later pursued my Bachelor of Science in
+      Mathematics at S.T. Hindu College, Nagercoil. My academic background has helped me build strong problem-solving
+      and analytical skills, which I now apply in my journey as a developer.</p>
+
+      <p>After graduation, I discovered my passion for technology and decided to build my career in Frontend
+      Development. I started learning on my own and dedicated time every day to understand the basics as well as the
+      practical applications of modern web technologies. Through consistent practice and self-learning, I have gained
+      skills in HTML, CSS, JavaScript, and GitHub, which allow me to create structured web pages, style them with
+      clean designs, add interactivity, and manage my projects effectively.</p>
+
+      <p>Although I am a fresher with no formal job experience, I am eager to take on opportunities where I can
+      apply what I have learned, gain real-world exposure, and continue growing as a developer. My goal is to improve
+      my technical expertise, collaborate with other professionals, and contribute to meaningful projects while
+      developing myself into a skilled frontend developer.</p>
+
+      &ensp;  &ensp; &ensp;
+      <a href="home.html" id="btn1">Home</a> &nbsp; <a href="skills.html" id="btn2">Skills</a>
+
+    </div>
+  </div>
+</body>
+</html>
